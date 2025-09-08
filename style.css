@@ -1,6 +1,13 @@
 body{
-    background-color: cadetblue;
+    background-color: blue;
 }
+
 h1, p{
     text-align: center;
+}
+.hoppa{
+    width: 380px;
+    background-color: rgba(102, 45, 226, 0.444);
+    margin-right: auto;
+    margin-left: auto;
 }

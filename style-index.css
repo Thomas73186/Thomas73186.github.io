@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(204, 204, 204);
+}
+h1 {
+text-align: center;
+font-style: sans-verdict;
+color: rgb(23, 1, 1);
+}
+.waarom{
+    width: 20%;
+    background-color: antiquewhite;
+    
+}
+img{
+    width: 20%;
+    }
