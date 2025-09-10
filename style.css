@@ -1,13 +1,96 @@
-body{
-    background-color: blue;
+body {
+  background-color: rgb(250, 240, 230);
 }
 
-h1, p{
-    text-align: center;
+#navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
 }
-.hoppa{
-    width: 380px;
-    background-color: rgba(102, 45, 226, 0.444);
-    margin-right: auto;
-    margin-left: auto;
+
+#navbar li {
+  float: left;
+}
+
+#navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#navbar ul li a:hover {
+  background-color: #111111;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+  display: inline-grid;
+  grid-template-columns: auto auto auto ;
+  background-color: antiquewhite;
+  padding: 10px;
+}
+
+.container > div {
+  background-color: #f1f1f1;
+  border: 1px solid black;
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+#div1, #div3{
+  width: 460px;
+  background-color: rgb(245, 213, 171);
+}
+#div2 {
+  width: 240px;
+  background-color: bisque;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+#omhulsel{
+  width: 270px;
+  background-color: bisque;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+#omhulsel2 {
+  width: 440px;
+  background-color: bisque;
+  margin-left: auto;
+  margin-right: auto; 
+  margin-top: 10px;
+}
+
+
+p{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  letter-spacing: 1.1px;
+  color: rgb(25, 25, 112);
+  font-size: 18px;
+}
+.toren {
+  width: 350px;
+  border: 1px solid #111111;
+}
+figcaption {
+  font-size: 12px;
+  color: olive;
+}
+.antony {
+  width: 450px;
+  border: 1px solid #111111;
+  margin-top: 50px;
+
 }

@@ -1,0 +1,46 @@
+body {
+    background-color: antiquewhite;
+}
+#navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+#navbar li {
+  float: left;
+}
+
+#navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+#navbar ul li a:hover {
+  background-color: #111111;
+}
+hr{
+    height: 1px;
+    background-color: rgb(20, 0, 57);
+    border-color: black;
+}
+
+
+
+table {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    background-color: rgb(245, 213, 171);
+ 
+
+}
+th, td {
+  text-align: left;
+  padding: 8px;
+}
