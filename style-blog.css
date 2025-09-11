@@ -1,0 +1,113 @@
+body {
+    background-color: rgb(250, 240, 230);
+}
+
+#navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+#navbar li {
+    float: left;
+}
+
+#navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navbar  li a:hover {
+    background-color: #111111;
+}
+
+hr {
+    height: 1px;
+    background-color: rgb(20, 0, 57);
+    border-color: black;
+}
+
+.container {
+    display: grid;
+    grid-template-areas:
+    "kop kop"
+    "post1 post2 ";
+    grid-template-columns: 4fr 3fr;
+    gap: 5px;
+    background-color: antiquewhite;
+    padding: 5px;
+    margin: 150px;
+    margin-top: 0;
+}
+.kop {
+  grid-area: kop;
+  background-color: rgb(245, 213, 171);
+  padding: 10px;
+  text-align: center;
+  font-size: 35px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.container > article
+ {
+  grid-area: post2, post1;
+  background-color: rgb(245, 213, 171);
+  padding: 10px;
+}
+
+
+.subtitel {
+  font-style: italic;
+  font-size: 17px;
+  font-weight: bold;
+  color: rgb(25, 25, 112);
+  margin-bottom: 10px;
+   margin-left: 10px;
+}
+
+.foto1 {
+    width: 643px;
+    display: block;
+    margin: auto;
+    height: 200px;
+
+}
+
+h2, h3 {
+    margin-left: 10px;
+}
+p{
+    margin-left: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.lees-meer-knop {
+  display: inline-block;
+  margin-top: 5px;
+  margin-left: 10px;
+  padding: 8px 16px;
+  background-color: #d17a29;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.lees-meer-knop:hover {
+  background-color: #163d73;
+}
+summary {
+  margin-left: 10px;
+}
+.foto-swot{
+    width: 523px;
+    display: block;
+    margin: auto;
+    height: 200px;
+
+}

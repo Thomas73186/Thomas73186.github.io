@@ -22,8 +22,14 @@ body {
   text-decoration: none;
 }
 
-#navbar ul li a:hover {
-  background-color: #111111;
+#navbar li a:hover {
+  background-color: #ff7700;
+}
+
+hr {
+  height: 1px;
+  background-color: rgb(20, 0, 57);
+  border-color: black;
 }
 
 h1,
@@ -35,62 +41,78 @@ h3 {
 
 .container {
   display: inline-grid;
-  grid-template-columns: auto auto auto ;
-  background-color: antiquewhite;
-  padding: 10px;
+  grid-template-columns: auto auto auto;
+  background-color: antiquewhite
+  padding 10px;
 }
 
-.container > div {
-  background-color: #f1f1f1;
+.container>section {
+  background-color: rgb(245, 213, 171);
   border: 1px solid black;
   padding: 20px;
   font-size: 20px;
   text-align: center;
 }
-#div1, #div3{
-  width: 460px;
-  background-color: rgb(245, 213, 171);
-}
-#div2 {
+
+#box-eigenschappen {
   width: 240px;
   background-color: bisque;
   margin-left: auto;
   margin-right: auto;
   margin-top: 10px;
 }
-#omhulsel{
+
+#box-pi {
   width: 270px;
   background-color: bisque;
   margin-left: auto;
   margin-right: auto;
   margin-top: 10px;
 }
-#omhulsel2 {
+
+#box-interesses {
   width: 440px;
   background-color: bisque;
   margin-left: auto;
-  margin-right: auto; 
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+#box-luiaard {
+  width: 240px;
+  background-color: bisque;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 10px;
 }
 
 
-p{
+p {
   font-family: Georgia, 'Times New Roman', Times, serif;
   letter-spacing: 1.1px;
   color: rgb(25, 25, 112);
   font-size: 18px;
 }
+
 .toren {
   width: 350px;
   border: 1px solid #111111;
 }
+
 figcaption {
   font-size: 12px;
   color: olive;
 }
+
 .antony {
   width: 450px;
   border: 1px solid #111111;
   margin-top: 50px;
 
+}
+
+.sloth {
+  width: 350px;
+  border: 1px solid #111111;
+  margin-top: 40px;
 }

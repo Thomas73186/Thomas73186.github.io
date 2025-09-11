@@ -41,7 +41,7 @@ hr{
   padding: 14px 16px;
   text-decoration: none;
 }
-#navbar ul li a:hover {
+#navbar  li a:hover {
   background-color: #ff7700;
 }
 
@@ -71,21 +71,24 @@ nav {
   background-color: antiquewhite;
   padding: 5px;
 }
-.container > div {
+.container > aside, 
+.container > div
+{
   background-color: rgb(245, 213, 171);
   padding: 10px;
+  grid-area: menu;
 }
-.container > div.header {
+.container > header {
   grid-area: header;
   text-align: center;
 }
-.container > div.menu {
-  grid-area: menu;
-}
-.container > div.content {
+
+.container > main {
   grid-area: content;
+  background-color: rgb(245, 213, 171);
 }
-.container > div.footer {
+
+.container > footer {
   grid-area: footer;
 }
 .plaatje {
