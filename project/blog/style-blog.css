@@ -35,11 +35,12 @@ hr {
 .container {
     display: grid;
     grid-template-areas:
-    "kop kop"
-    "post1 post2 ";
+  "kop kop"
+  "post1 post2"
+  "post3 post4"
+  "post5 post5";
     grid-template-columns: 4fr 3fr;
     gap: 5px;
-    background-color: antiquewhite;
     padding: 5px;
     margin: 150px;
     margin-top: 0;
@@ -54,11 +55,43 @@ hr {
 }
 
 
-.container > article
+.post1
  {
-  grid-area: post2, post1;
+  grid-area: post1;
   background-color: rgb(245, 213, 171);
   padding: 10px;
+}
+
+.post2
+ {
+  grid-area: post2;
+  background-color: rgb(245, 213, 171);
+  padding: 10px;
+}
+
+.post3
+ {
+  grid-area: post3;
+  background-color: rgb(245, 213, 171);
+  padding: 10px;
+}
+
+.post4
+ {
+  grid-area: post4;
+  background-color: rgb(245, 213, 171);
+  padding: 10px;
+}
+
+.post5
+ {
+  grid-area: post5;
+  background-color: rgb(245, 213, 171);
+  padding: 10px;
+}
+
+.post1, .post2, .post3, .post4, .post5 {
+  align-self: start;
 }
 
 
@@ -71,17 +104,22 @@ hr {
    margin-left: 10px;
 }
 
-.foto1 {
-    width: 643px;
+.image-right, .image-bottom {
+    width: 443px;
     display: block;
     margin: auto;
     height: 200px;
 
 }
+.image-left {
+    width: 443px;
+    display: block;
+    margin-left: 20px;
+    height: 200px;
 
-h2, h3 {
-    margin-left: 10px;
 }
+
+
 p{
     margin-left: 10px;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -110,4 +148,16 @@ summary {
     margin: auto;
     height: 200px;
 
+}
+.onderste-div{
+  text-align: center;
+}
+.subtitel-onderste-div {
+  font-style: italic;
+  font-size: 17px;
+  font-weight: bold;
+  color: rgb(25, 25, 112);
+  margin-bottom: 10px;
+   margin-left: 10px;
+   text-align: center;
 }

@@ -4,6 +4,7 @@ body{
 }
 h1,
 h2 {
+  padding-left: 10px;
    font-weight: bold;
     font-size: 18px;
     font-family: sans-serif;
@@ -13,8 +14,6 @@ h3 {
     font-size: 14px;
     font-family: sans-serif;
     margin-left: 50px;
-
-
 }
 hr{
     height: 1px;
@@ -51,6 +50,7 @@ p{
   letter-spacing: 1.8px;
   color: rgb(25, 25, 112);
   font-size: 18px;
+  padding: 10px;
 }
 
 nav {
@@ -58,7 +58,7 @@ nav {
     top: 10;
     left: 0;
     width: 100%
-    /*vragen wat dit doet*/
+  
 }
 .container {
   display: grid;
@@ -102,8 +102,16 @@ nav {
   margin-left: auto;
   margin-right: auto;
 }
-.linkje{
-  color: blueviolet;
-  font-size: 16px;
+.aside-menu{
+  font-size: 14px;
   text-align: center;
+  margin-top: 4px;
+}
+.lijst-linkjes {
+  display: flex;
+  gap: 20px;           
+  list-style: none;
+  justify-content: center;
+  padding: 0;
+  margin-top: 3px;
 }

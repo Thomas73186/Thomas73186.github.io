@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>dashboard</title>
+  <link href="style-dashboard.css" rel="stylesheet">
+</head>
+
+<body>
+  <ul id="navbar">
+    <li class="rij"><a href="/project/index.html">Home</a></li>
+    <li class="rij"><a href="/project/profile/profile.html">Profile</a></li>
+    <li class="rij"><a href="/project/dashboard/dashboard.html">Dashboard</a></li>
+    <li class="rij"><a href="/project/faq/faq.html">FAQ</a></li>
+    <li class="rij"><a href="/project/blog/blog.html">Blog</a></li>
+  </ul>
+  <hr>
+  <table class="tabel-border">
+    <tr>
+      <th>block</th>
+      <th>course</th>
+      <th>ec</th>
+      <th>exam</th>
+      <th>grade</th>
+      <th>Behaalde studiepunten</th>
+    </tr>
+    <tr>
+      <td rowspan="3">s1</td>
+      <td>Program- & Career Orientation </td>
+      <td>2.5</td>
+      <td>presentation</td>
+      <td><input type="number" class="cijferInput" step="0.1" min="1" max="10" placeholder="n.b.t"></td>
+      
+      <td><span id="ec-output"></span></td>
+    </tr>
+    <tr>
+      <td>Computer Science Basics </td>
+      <td>5</td>
+      <td>Written Knowledge test</td>
+      <td><input type="number" class="cijferInput" step="0.1" min="1" max="10" placeholder="n.b.t"></td>
+   
+      <td></td>
+    </tr>
+    <tr>
+      <td>Programming Basics </td>
+      <td>5</td>
+      <td>Written Knowledge test</td>
+      <td><input type="number" class="cijferInput" step="0.1" min="1" max="10" placeholder="n.b.t"></td>
+    
+      <td></td>
+    </tr>
+
+    <tr>
+      <td rowspan="5">2</td>
+      <td rowspan="2">Object-Oriented Programming </td>
+      <td rowspan="2">10</td>
+      <td>Written Knowledge test</td>
+      <td><input type="number" class="cijferInput" step="0.1" min="1" max="10" placeholder="n.b.t"></td>
+  
+      <td></td>
+    </tr>
+    <tr>
+      <td>Presentation</td>
+      <td><input type="number" class="cijferInput" step="0.1" min="1" max="10" placeholder="n.b.t"></td>
+     
+      <td></td>
+    </tr>
+
+    <tr>
+      <td rowspan="3"> Framework Project 2</td>
+      <td rowspan="3">10</td>
+      <td>presentation</td>
+      <td><input type="number" class="cijferInput" step="0.1" min="1" max="10" placeholder="n.b.t"></td>
+
+      <td></td>
+    </tr>
+    <tr>
+      <td>Portofolio 1</td>
+      <td><input type="number" class="cijferInput" step="0.1" min="1" max="10" placeholder="n.b.t"></td>
+
+      <td></td>
+    </tr>
+    <tr>
+      <td>Portofolio 2</td>
+      <td><input type="number" class="cijferInput" step="0.1" min="1" max="10" placeholder="n.b.t"></td>
+
+      <td></td>
+    </tr>
+    
+
+    <tr>
+      <td>3</td>
+      <td> Business Understanding Basics </td>
+      <td>2.5</td>
+      <td>assignment</td>
+      <td><input type="number" class="cijferInput" step="0.1" min="1" max="10" placeholder="n.b.t"></td>
+
+      <td></td>
+    </tr>
+
+    <tr>
+      <td rowspan="3">4</td>
+      <td rowspan="3"> Framework Project 1 </td>
+      <td rowspan="3">10</td>
+      <td>written knowledge test</td>
+      <td><input type="number" class="cijferInput" step="0.1" min="1" max="10" placeholder="n.b.t"></td>
+      
+      <td></td>
+    </tr>
+    <tr>
+      <td>written knowledge test</td>
+      <td><input type="number" class="cijferInput" step="0.1" min="1" max="10" placeholder="n.b.t"></td>
+     
+      <td></td>
+    </tr>
+    <tr>
+      <td>presentation</td>
+      <td><input type="number" class="cijferInput" step="0.1" min="1" max="10" placeholder="n.b.t"></td>
+    
+      <td></td>
+    </tr>
+    <tr>
+      <td>*</td>
+      <td>Personal Professional Development Exploration</td>
+      <td>12.5</td>
+      <td>Criterion-referenced
+        interview</td>
+      <td><input type="number" class="cijferInput" step="0.1" min="1" max="10" placeholder="n.b.t"></td>
+   
+      <td></td>
+    </tr>
+    <tr>
+      <td>**</td>
+      <td>hz peronality</td>
+      <td>2.5</td>
+      <td>multiple</td>
+      <td>-</td>
+      <td><span id="ec-output"></span>
+</td>
+    </tr>
+    <tr>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td></td>
+    </tr>
+  </table>
+  </div>
+  
+  <script src="dashboard.js"></script>
+</body>
+
+</html>
