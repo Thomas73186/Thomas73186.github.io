@@ -1,6 +1,7 @@
 body{
     background-color: antiquewhite;
     margin: 0;
+    overflow: hidden;
 }
 h1,
 h2 {
@@ -48,7 +49,7 @@ hr{
 p{
   font-family: Georgia, 'Times New Roman', Times, serif;
   letter-spacing: 1.8px;
-  color: rgb(25, 25, 112);
+  color: rgb(37, 37, 109);
   font-size: 18px;
   padding: 10px;
 }
